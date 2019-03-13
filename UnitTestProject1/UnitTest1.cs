@@ -20,9 +20,11 @@ namespace UnitTestProject1
         }
 
         [TestMethod]
-        public void TestMethodFail()
+        public void TestMethodAddition()
         {
-            Assert.Fail();
+            int numb = 5+ 5;
+
+            Assert.AreEqual(10, numb);
         }
 
     }
