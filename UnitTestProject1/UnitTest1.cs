@@ -19,11 +19,11 @@ namespace UnitTestProject1
             Assert.IsFalse(a);
         }
 
-        //[TestMethod]
-        //public void TestMethodFail()
-        //{
-        //    Assert.Fail();
-        //}
+        [TestMethod]
+        public void TestMethodFail()
+        {
+            Assert.Fail();
+        }
 
     }
 }
