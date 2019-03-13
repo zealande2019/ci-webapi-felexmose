@@ -27,5 +27,13 @@ namespace UnitTestProject1
             Assert.AreEqual(10, numb);
         }
 
+        [TestMethod]
+        public void TestMethodSubtraction()
+        {
+            int numb = 10 - 5;
+
+            Assert.AreEqual(5, numb);
+        }
+
     }
 }
